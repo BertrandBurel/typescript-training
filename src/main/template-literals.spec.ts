@@ -62,7 +62,6 @@ describe('Template literals', () => {
     let journey = function countries(one, two, three) {      
       return `${one}, then ${two} and finally ${three}!`;
     } 
-
     expect(journey(`Warsaw`, `Poznan`, `Berlin`)).toBe('Warsaw, then Poznan and finally Berlin!')
     expect(journey(`Poland`, `Czech`, `Austria`)).toBe('Poland, then Czech and finally Austria!')
     expect(journey(`Europe`, `Asia`, `Australia`)).toBe('Europe, then Asia and finally Australia!')
