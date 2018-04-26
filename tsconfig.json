@@ -14,6 +14,7 @@
   "include": [
     "src/main/*.ts",
     "src/datatypes/*.ts",
+    "src/params/*.ts",
     "data/**/*.ts",
     "src/lib.ext.ts",
     "src/matchers.ts",
